@@ -1,0 +1,184 @@
+D:\我的桌面\IECSC.SRM\IECSC.SRM\bin\Debug\IECSC.SRM.exe.config
+D:\我的桌面\IECSC.SRM\IECSC.SRM\bin\Debug\IECSC.SRM.exe
+D:\我的桌面\IECSC.SRM\IECSC.SRM\bin\Debug\IECSC.SRM.pdb
+D:\我的桌面\IECSC.SRM\IECSC.SRM\bin\Debug\Dapper.dll
+D:\我的桌面\IECSC.SRM\IECSC.SRM\bin\Debug\DapperExtensions.dll
+D:\我的桌面\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.DataStruct.dll
+D:\我的桌面\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.DbClient.dll
+D:\我的桌面\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.LogAgent.dll
+D:\我的桌面\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.OpcClient.dll
+D:\我的桌面\IECSC.SRM\IECSC.SRM\bin\Debug\OpcNetApi.Com.dll
+D:\我的桌面\IECSC.SRM\IECSC.SRM\bin\Debug\OpcNetApi.dll
+D:\我的桌面\IECSC.SRM\IECSC.SRM\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\我的桌面\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Comn.dll
+D:\我的桌面\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Da.dll
+D:\我的桌面\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Ae.dll
+D:\我的桌面\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Hda.dll
+D:\我的桌面\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Dx.dll
+D:\我的桌面\IECSC.SRM\IECSC.SRM\obj\Debug\MainWindow.g.cs
+D:\我的桌面\IECSC.SRM\IECSC.SRM\obj\Debug\App.g.cs
+D:\我的桌面\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM_Content.g.cs
+D:\我的桌面\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM_MarkupCompile.cache
+D:\我的桌面\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM_MarkupCompile.lref
+D:\我的桌面\IECSC.SRM\IECSC.SRM\obj\Debug\MainWindow.baml
+D:\我的桌面\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.g.resources
+D:\我的桌面\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.Properties.Resources.resources
+D:\我的桌面\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csproj.GenerateResource.cache
+D:\我的桌面\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csproj.CoreCompileInputs.cache
+D:\我的桌面\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csproj.CopyComplete
+D:\我的桌面\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.exe
+D:\我的桌面\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.pdb
+D:\我的桌面\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csprojResolveAssemblyReference.cache
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\IECSC.SRM.exe.config
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\IECSC.SRM.exe
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\IECSC.SRM.pdb
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\Dapper.dll
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\DapperExtensions.dll
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.DataStruct.dll
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.DbClient.dll
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.LogAgent.dll
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.OpcClient.dll
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\OpcNetApi.Com.dll
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\OpcNetApi.dll
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Comn.dll
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Da.dll
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Ae.dll
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Hda.dll
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Dx.dll
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\MainWindow.g.cs
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\App.g.cs
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM_Content.g.cs
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM_MarkupCompile.cache
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM_MarkupCompile.lref
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\MainWindow.baml
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.g.resources
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.Properties.Resources.resources
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csproj.GenerateResource.cache
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csproj.CoreCompileInputs.cache
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csproj.CopyComplete
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.exe
+D:\我的桌面\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.pdb
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\IECSC.SRM.exe.config
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\IECSC.SRM.exe
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\IECSC.SRM.pdb
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\Dapper.dll
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\DapperExtensions.dll
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.DataStruct.dll
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.DbClient.dll
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.LogAgent.dll
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.OpcClient.dll
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\OpcNetApi.Com.dll
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\OpcNetApi.dll
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Comn.dll
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Da.dll
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Ae.dll
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Hda.dll
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Dx.dll
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\MainWindow.g.cs
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\App.g.cs
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM_Content.g.cs
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM_MarkupCompile.cache
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM_MarkupCompile.lref
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\MainWindow.baml
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.g.resources
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.Properties.Resources.resources
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csproj.GenerateResource.cache
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csproj.CoreCompileInputs.cache
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csproj.CopyComplete
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.exe
+D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.pdb
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\IECSC.SRM.exe.config
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\IECSC.SRM.exe
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\IECSC.SRM.pdb
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\Dapper.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\DapperExtensions.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.DataStruct.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.DbClient.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.LogAgent.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.OpcClient.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\OpcNetApi.Com.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\OpcNetApi.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Comn.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Da.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Ae.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Hda.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Dx.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csprojResolveAssemblyReference.cache
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\MainWindow.g.cs
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\App.g.cs
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM_Content.g.cs
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM_MarkupCompile.cache
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM_MarkupCompile.lref
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\MainWindow.baml
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.g.resources
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.Properties.Resources.resources
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csproj.GenerateResource.cache
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csproj.CoreCompileInputs.cache
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csproj.CopyComplete
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.exe
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.pdb
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\IECSC.SRM.exe.config
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\IECSC.SRM.exe
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\IECSC.SRM.pdb
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\Dapper.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\DapperExtensions.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.DataStruct.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.DbClient.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.LogAgent.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.OpcClient.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\OpcNetApi.Com.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\OpcNetApi.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\Oracle.ManagedDataAccess.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Comn.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Da.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Ae.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Hda.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Dx.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csprojAssemblyReference.cache
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\MainWindow.g.cs
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\App.g.cs
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM_Content.g.cs
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM_MarkupCompile.cache
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM_MarkupCompile.lref
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\MainWindow.baml
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.g.resources
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.Properties.Resources.resources
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csproj.GenerateResource.cache
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csproj.CoreCompileInputs.cache
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csproj.CopyComplete
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.exe
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.pdb
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\bin\Debug\IECSC.SRM.exe.config
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\bin\Debug\IECSC.SRM.exe
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\bin\Debug\IECSC.SRM.pdb
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\bin\Debug\Dapper.dll
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\bin\Debug\DapperExtensions.dll
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.DataStruct.dll
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.DbClient.dll
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.LogAgent.dll
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\bin\Debug\MSTL.OpcClient.dll
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\bin\Debug\OpcNetApi.Com.dll
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\bin\Debug\OpcNetApi.dll
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\bin\Debug\Oracle.ManagedDataAccess.dll
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Comn.dll
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Da.dll
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Ae.dll
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Hda.dll
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\bin\Debug\OpcRcw.Dx.dll
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csprojAssemblyReference.cache
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\obj\Debug\MainWindow.g.cs
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\obj\Debug\App.g.cs
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM_Content.g.cs
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM_MarkupCompile.cache
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM_MarkupCompile.lref
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\obj\Debug\MainWindow.baml
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.g.resources
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.Properties.Resources.resources
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csproj.GenerateResource.cache
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csproj.CoreCompileInputs.cache
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.csproj.CopyComplete
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.exe
+E:\HDGL\Github\IECSC\IECSC.SRM\IECSC.SRM\obj\Debug\IECSC.SRM.pdb

@@ -1,0 +1,137 @@
+﻿<Window x:Class="IECSC.SRM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IECSC.SRM"
+        mc:Ignorable="d"
+        Title="堆垛机控制程序" Height="807.5" Width="1308" WindowStartupLocation="CenterScreen" Icon="SRM.ico">
+    <DockPanel Width="Auto" Height="Auto" LastChildFill="True">
+        <!--底部状态栏-->
+        <StackPanel Width="Auto" Height="25" Background="AliceBlue" Orientation="Horizontal" DockPanel.Dock="Bottom">
+            <Label Width="Auto" Height="Auto" Content="数据库连接状态:" FontFamily="微软雅黑" FontSize="12"/>
+            <Rectangle x:Name="recDbConnStatus" Width="25" Height="15" Fill="Red"/>
+            <Label Width="Auto" Height="Auto" Content="设备连接状态:" FontFamily="微软雅黑" FontSize="12"/>
+            <Rectangle x:Name="recPlcConnStatus" Width="25" Height="15" Fill="Red"/>
+            <Label Content="  登陆时间:" FontFamily="微软雅黑" FontSize="12"/>
+            <Label x:Name="lbTime" Content="2018-11-11 11:59:59" FontFamily="微软雅黑" FontSize="12"/>
+        </StackPanel>
+        <!--右侧日志、状态栏-->
+        <TabControl Width="350" Height="Auto" DockPanel.Dock="Left">
+            <TabItem Header="状态监控">
+                <Grid Width="Auto" Height="Auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140"/>
+                        <ColumnDefinition Width="110"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="10*"/>
+                    </Grid.RowDefinitions>
+                    <Label Content="刷新时间" Grid.Column="0" Grid.Row="0" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="#FF4B6499" FontSize="14" FontStyle="Italic"/>
+                    <TextBox x:Name="txtRefTime" Grid.Column="1" Grid.Row="0" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Text="00:00:00.000" Background="White" TextAlignment="Center" Foreground="#FF4B6499" VerticalContentAlignment="Center" FontSize="14" FontStyle="Italic" BorderBrush="{x:Null}"/>
+                    <Label Content="SRM编号" Grid.Column="0" Grid.Row="1" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtDeviceId" Grid.Column="1" Grid.Row="1" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#A1C2DC" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="心跳信号" Grid.Column="0" Grid.Row="2" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtHeartBeat" Grid.Column="1" Grid.Row="2" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="设备状态" Grid.Column="0" Grid.Row="3" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtOperateMode" Grid.Column="1" Grid.Row="3" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="任务状态" Grid.Column="0" Grid.Row="4" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtMissionState" Grid.Column="1" Grid.Row="4" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="任务类型" Grid.Column="0" Grid.Row="5" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtMissionType" Grid.Column="1" Grid.Row="5" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="任务编号" Grid.Column="0" Grid.Row="6" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtMissionId" Grid.Column="1" Grid.Row="6" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="工装编号" Grid.Column="0" Grid.Row="7" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtPalletNo" Grid.Column="1" Grid.Row="7" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="当前列" Grid.Column="0" Grid.Row="8" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtActPosBay" Grid.Column="1" Grid.Row="8" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="当前层" Grid.Column="0" Grid.Row="9" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtActPosLevel" Grid.Column="1" Grid.Row="9" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="当前水平位置" Grid.Column="0" Grid.Row="10" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtActPosX" Grid.Column="1" Grid.Row="10" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="当前垂直位置" Grid.Column="0" Grid.Row="11" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtActPosY" Grid.Column="1" Grid.Row="11" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="浅库位货叉位置" Grid.Column="0" Grid.Row="12" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtActPosZ" Grid.Column="1" Grid.Row="12" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="深库位货叉位置" Grid.Column="0" Grid.Row="13" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtActPosZDeep" Grid.Column="1" Grid.Row="13" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="行走速度" Grid.Column="0" Grid.Row="14" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtActSpeedX" Grid.Column="1" Grid.Row="14" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="升降速度" Grid.Column="0" Grid.Row="15" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtActSpeedY" Grid.Column="1" Grid.Row="15" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="浅库位货叉速度" Grid.Column="0" Grid.Row="16" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtActSpeedZ" Grid.Column="1" Grid.Row="16" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="深库位货叉速度" Grid.Column="0" Grid.Row="17" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtActSpeedZDeep" Grid.Column="1" Grid.Row="17" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="负载状态" Grid.Column="0" Grid.Row="18" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtLoadStatus" Grid.Column="1" Grid.Row="18" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="故障代码" Grid.Column="0" Grid.Row="19" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtFaultNo" Grid.Column="1" Grid.Row="19" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="备用" Grid.Column="0" Grid.Row="20" Margin="2" Width="Auto" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtNoFunction" Grid.Column="1" Grid.Row="20" Margin="2" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Center" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Label Content="SRM报警：" Grid.Column="0" Grid.Row="21" Margin="2" Width="Auto" Height="Auto" FontWeight="Bold" Foreground="#FF2E39AE" HorizontalAlignment="Right" VerticalAlignment="Center" FontStyle="Italic" FontSize="14"/>
+                    <TextBox x:Name="txtFaultDesc" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="21" Margin="2" Text="无" Width="Auto" Height="Auto" IsReadOnly="True" TextAlignment="Left" VerticalContentAlignment="Center" FontStyle="Italic" FontWeight="Bold" Foreground="Red" FontSize="16" AcceptsReturn="True" TextWrapping="Wrap" BorderBrush="{x:Null}"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <!--剧中显示-->
+        <Grid Width="Auto" Height="Auto">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="85*"/>
+            </Grid.RowDefinitions>
+            <GroupBox Header="当前任务信息" Grid.Column="0" Grid.Row="0" Width="Auto" Height="Auto" Margin="3">
+                <DataGrid x:Name="dgv" Margin="3" CanUserAddRows="False" CanUserDeleteRows="False" AutoGenerateColumns="False" SelectionMode="Single"
+                      HorizontalGridLinesBrush="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" VerticalGridLinesBrush="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding SrmNo}" IsReadOnly="True" Header="SRM编号" Width="80" FontWeight="Bold" FontStyle="Italic"/>
+                        <DataGridTextColumn Binding="{Binding Objid,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True"  Header="指令号" Width="100"/>
+                        <DataGridTextColumn Binding="{Binding TaskNo,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True"  Header="任务号" Width="100"/>
+                        <DataGridTextColumn Binding="{Binding CmdStep,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True"  Header="指令步骤" Width="100"/>
+                        <DataGridTextColumn Binding="{Binding TaskType,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True"  Header="任务类型" Width="80"/>
+                        <DataGridTextColumn Binding="{Binding PalletNo,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True"  Header="托盘号" Width="100"/>
+                        <DataGridTextColumn Binding="{Binding FromLoc,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True"  Header="起始位置" Width="100"/>
+                        <DataGridTextColumn Binding="{Binding ToLoc,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True"  Header="目的位置" Width="100"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </GroupBox>
+            <Grid Grid.Column="0" Grid.Row="1" Width="Auto" Height="Auto" Margin="0,0,10,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100*"/>
+                    <ColumnDefinition Width="80"/>
+                    <ColumnDefinition Width="80"/>
+                    <ColumnDefinition Width="80"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="btnRefSend" Grid.Row="0" Grid.Column="1" Margin="3,0,3,0" Content="任务重发" Click="btnRefSend_Click" Background="#FFEDF0F0" Cursor="Hand"/>
+                <Button x:Name="btnFinish"  Grid.Row="0" Grid.Column="2" Margin="3,0,3,0" Content="强制完成" Click="btnFinish_Click"  Background="#FFEDF0F0" Cursor="Hand"/>
+                <Button x:Name="btnDel"     Grid.Row="0" Grid.Column="3" Margin="3,0,3,0" Content="强制删除" Click="btnDel_Click"     Background="#FFEDF0F0" Cursor="Hand"/>
+            </Grid>
+            <GroupBox Header="设备运行日志" Grid.Column="0" Grid.Row="2" Width="Auto" Height="Auto" Margin="3">
+                <TextBox x:Name="txtSrmRecord" Width="Auto" Height="Auto" TextWrapping="Wrap" Padding="5" BorderBrush="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" IsReadOnly="True" />
+            </GroupBox>
+        </Grid>
+    </DockPanel>
+</Window>

@@ -1,0 +1,67 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IECSC.TRANS"
+        xmlns:CustomControl="clr-namespace:IECSC.TRANS.CustomControl" x:Class="IECSC.TRANS.MainWindow"
+        mc:Ignorable="d"
+        Title="输送线" Height="749" Width="1256" Icon="Trans.ico">
+    <DockPanel Width="Auto" Height="Auto" LastChildFill="True">
+        <!--底部状态栏-->
+        <StackPanel Width="Auto" Height="25" Background="AliceBlue" Orientation="Horizontal" DockPanel.Dock="Bottom">
+            <Label Width="Auto" Height="Auto" Content="数据库连接状态:" FontFamily="微软雅黑" FontSize="12"/>
+            <Rectangle x:Name="recDbConnStatus" Width="25" Height="15" Fill="Red"/>
+            <Label Width="Auto" Height="Auto" Content="设备连接状态:" FontFamily="微软雅黑" FontSize="12"/>
+            <Rectangle x:Name="recPlcConnStatus" Width="25" Height="15" Fill="Red"/>
+            <Label Content="  登陆时间:" FontFamily="微软雅黑" FontSize="12"/>
+            <Label x:Name="lbTime" Content="2018-11-11 11:59:59" FontFamily="微软雅黑" FontSize="12"/>
+        </StackPanel>
+        <GroupBox x:Name="gbExecLog" Header="运行日志" Width="350" Height="Auto" Margin="3" DockPanel.Dock="Right">
+            <TextBox x:Name="txtLocRecord" Width="Auto" Height="Auto" TextWrapping="Wrap" Padding="5" BorderBrush="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" IsReadOnly="True" Grid.RowSpan="2" />
+        </GroupBox>
+        <Grid Width="Auto" Height="Auto">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="75*"/>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <GroupBox Header="站台状态监控" Grid.Column="0" Grid.Row="0" Width="Auto" Height="Auto" Margin="3">
+                <ScrollViewer Name="scrollViewer1"  VerticalScrollBarVisibility="Auto">
+                    <WrapPanel x:Name="GridLocList" Width="Auto" Height="Auto"/>
+                </ScrollViewer>
+            </GroupBox>
+            <GroupBox x:Name="gbTaskCmd" Header="当前任务信息" Grid.Column="0" Grid.Row="1" Width="Auto" Height="Auto" Margin="3">
+                <DataGrid x:Name="dgv" Margin="3" CanUserAddRows="False" CanUserDeleteRows="False" AutoGenerateColumns="False" SelectionMode="Single"
+                      HorizontalGridLinesBrush="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" VerticalGridLinesBrush="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding ObjId,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" Header="指令号" Width="80"/>
+                        <DataGridTextColumn Binding="{Binding TaskNo,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" Header="任务号" Width="80"/>
+                        <DataGridTextColumn Binding="{Binding CmdType,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" Header="任务类型" Width="80"/>
+                        <DataGridTextColumn Binding="{Binding CmdStep,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" Header="任务步骤" Width="80"/>
+                        <DataGridTextColumn Binding="{Binding SlocPlcNo,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" Header="起始站台" Width="100"/>
+                        <DataGridTextColumn Binding="{Binding ElocPlcNo,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" Header="目的站台" Width="100"/>
+                        <DataGridTextColumn Binding="{Binding PalletNo,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" Header="托盘号" Width="100"/>
+                        <DataGridTextColumn Binding="{Binding SlocType,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" Header="起始站台类型" Width="90"/>
+                        <DataGridTextColumn Binding="{Binding ElocType,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" Header="目的站台类型" Width="90"/>
+                        <DataGridTextColumn Binding="{Binding SlocNo,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" Header="站台编号" Width="90" Visibility="Hidden"/>
+                        <DataGridTextColumn Binding="{Binding ElocNo,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" Header="站台编号" Width="90" Visibility="Hidden"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </GroupBox>
+            <Grid Grid.Column="0" Grid.Row="2" Width="Auto" Height="Auto" Margin="0,0,10,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100*"/>
+                    <ColumnDefinition Width="80"/>
+                    <ColumnDefinition Width="80"/>
+                    <ColumnDefinition Width="80"/>
+                    <ColumnDefinition Width="80"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="btnShowAll" Grid.Row="0" Grid.Column="1" Margin="3,0,3,0" Content="界面刷新"  Background="#FFEDF0F0" Cursor="Hand" Click="btnShowAll_Click"/>
+                <Button x:Name="btnRefSend" Grid.Row="0" Grid.Column="2" Margin="3,0,3,0" Content="任务重发"  Background="#FFEDF0F0" Cursor="Hand" Click="btnRefSend_Click"/>
+                <Button x:Name="btnFinish"  Grid.Row="0" Grid.Column="3" Margin="3,0,3,0" Content="强制完成"  Background="#FFEDF0F0" Cursor="Hand" Click="btnFinish_Click"/>
+                <Button x:Name="btnDel"     Grid.Row="0" Grid.Column="4" Margin="3,0,3,0" Content="强制删除"  Background="#FFEDF0F0" Cursor="Hand" Click="btnDel_Click"/>
+            </Grid>
+        </Grid>
+    </DockPanel>
+</Window>

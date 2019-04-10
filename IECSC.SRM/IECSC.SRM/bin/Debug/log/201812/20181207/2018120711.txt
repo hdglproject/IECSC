@@ -1,0 +1,8 @@
+2018-12-07 11:58:03,887 [1] ERROR IECSC.SRM.DbAction [(null)] - [异常]执行DbAction()建立数据库连接失败:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DapperExtensions.Database..ctor(IDbConnection connection, ISqlGenerator sqlGenerator)
+   在 MSTL.DbClient.DbHelper.GetDb(String connectionString, DataBaseType dataBaseType, String& errMsg)
+   在 IECSC.SRM.DbAction.ConnDb(String& errMsg) 位置 D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\Action\DbAction.cs:行号 58
+2018-12-07 11:58:04,028 [1] ERROR IECSC.SRM.DbAction [(null)] - [异常]执行DbAction()建立数据库连接失败:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DapperExtensions.Database..ctor(IDbConnection connection, ISqlGenerator sqlGenerator)
+   在 MSTL.DbClient.DbHelper.GetDb(String connectionString, DataBaseType dataBaseType, String& errMsg)
+   在 IECSC.SRM.DbAction.ConnDb(String& errMsg) 位置 D:\我的桌面\产品整理\堆垛机程序Sql Server\IECSC.SRM\IECSC.SRM\Action\DbAction.cs:行号 58

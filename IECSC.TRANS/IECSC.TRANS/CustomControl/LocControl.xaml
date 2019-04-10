@@ -1,0 +1,69 @@
+﻿<UserControl x:Class="IECSC.TRANS.CustomControl.LocControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:IECSC.TRANS.CustomControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="180" d:DesignWidth="180">
+    <GroupBox x:Name="gbTitle" Header="" Width="Auto" Height="Auto" Margin="3">
+        <Grid Width="Auto" Height="Auto">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="45"/>
+            </Grid.ColumnDefinitions>
+            <!--<Rectangle Width="Auto" Height="Auto" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Stroke="#FF869FF1" StrokeThickness="2"/>-->
+            <!--指示灯信息-->
+            <Grid Grid.Column="1" Width="45" Height="Auto" DockPanel.Dock="Right">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10*"/>
+                    <RowDefinition Height="15*"/>
+                    <RowDefinition Height="15*"/>
+                    <RowDefinition Height="15*"/>
+                    <RowDefinition Height="15*"/>
+                    <RowDefinition Height="15*"/>
+                    <RowDefinition Height="15*"/>
+                </Grid.RowDefinitions>
+                <Ellipse x:Name="epAuto" Width="12" Height="12" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Stroke="#FF869FF1"/>
+                <Label Width="Auto" Height="Auto" Grid.Row="1" Grid.Column="1" Content="自动" FontSize="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Ellipse x:Name="epFault" Width="12" Height="12" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Stroke="#FF869FF1"/>
+                <Label Width="Auto" Height="Auto" Grid.Row="2" Grid.Column="1" Content="故障" FontSize="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Ellipse x:Name="epLoading" Width="12" Height="12" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Stroke="#FF869FF1"/>
+                <Label Width="Auto" Height="Auto" Grid.Row="3" Grid.Column="1" Content="有载" FontSize="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Ellipse x:Name="epRequest" Width="12" Height="12" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Stroke="#FF869FF1"/>
+                <Label Width="Auto" Height="Auto" Grid.Row="4" Grid.Column="1" Content="请求" FontSize="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Ellipse x:Name="epFree" Width="12" Height="12" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Stroke="#FF869FF1"/>
+                <Label Width="Auto" Height="Auto" Grid.Row="5" Grid.Column="1" Content="空闲" FontSize="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Ellipse x:Name="epToLoad" Width="12" Height="12" Grid.Row="6" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Stroke="#FF869FF1"/>
+                <Label Width="Auto" Height="Auto" Grid.Row="6" Grid.Column="1" Content="取货" FontSize="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            </Grid>
+            <!--反馈信息-->
+            <Grid Width="Auto" Height="Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="15*"/>
+                    <RowDefinition Height="10*"/>
+                    <RowDefinition Height="10*"/>
+                    <RowDefinition Height="10*"/>
+                    <RowDefinition Height="10*"/>
+                </Grid.RowDefinitions>
+                <Button x:Name="btnLocPlcNo" Content="A1101" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Margin="2" Width="Auto" Height="Auto" FontWeight="Bold" FontSize="18" Background="#A1C2DC" Click="btnLocPlcNo_Click" BorderBrush="{x:Null}" Cursor="Hand"/>
+                <Label Width="Auto" Height="Auto" Grid.Row="1" Grid.Column="0" Content="任务号" FontSize="10" HorizontalAlignment="Center"  VerticalAlignment="Center" BorderBrush="Black"/>
+                <TextBox x:Name="tbTaskNo" Grid.Column="1" Grid.Row="1" Margin="1" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Left" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                <Label Width="Auto" Height="Auto" Grid.Row="2" Grid.Column="0" Content="工装号" FontSize="10" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+                <TextBox x:Name="tbPalletNo" Grid.Column="1" Grid.Row="2" Margin="1" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Left" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                <Label Width="Auto" Height="Auto" Grid.Row="3" Grid.Column="0" Content="起始点" FontSize="10" HorizontalAlignment="Center"  VerticalAlignment="Center" BorderBrush="Black"/>
+                <TextBox x:Name="tbSlocNo" Grid.Column="1" Grid.Row="3" Margin="1" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Left" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+                <Label Width="Auto" Height="Auto" Grid.Row="4" Grid.Column="0" Content="目的点" FontSize="10" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+                <TextBox x:Name="tbElocNo" Grid.Column="1" Grid.Row="4" Margin="1" Width="Auto" Height="Auto" IsReadOnly="True" Background="#FFE9EAE8" TextAlignment="Left" VerticalContentAlignment="Center" BorderBrush="{x:Null}"/>
+            </Grid>
+        </Grid>
+    </GroupBox>
+</UserControl>

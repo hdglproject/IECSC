@@ -1,0 +1,61 @@
+﻿<Window x:Class="WCS.ExcuteJob.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WCS.ExcuteJob"
+        mc:Ignorable="d"
+        Title="作业执行" Height="588.99" Width="999.785">
+    <Window.Resources>
+        <local:JobStatusToBrushConverter x:Key="JobStatusToBrushConverter"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="635*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="dgMain" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5" 
+                  CanUserAddRows="False" CanUserDeleteRows="False" AutoGenerateColumns="False" SelectionMode="Single" Grid.Row="1" HorizontalGridLinesBrush="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" VerticalGridLinesBrush="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding JobNo}" IsReadOnly="true"  Header="作业编号"/>
+                <DataGridTextColumn Binding="{Binding JobName}" IsReadOnly="true" Header="作业名称"/>
+                <DataGridTextColumn Binding="{Binding Interval}" IsReadOnly="true" Header="执行间隔"/>
+                <DataGridTextColumn Binding="{Binding JobStatus,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="true" Header="作业状态">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="Background" Value="{Binding JobStatus,Converter={StaticResource JobStatusToBrushConverter}}"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding UsedFlag}" IsReadOnly="true" Header="是否启用"/>
+                <DataGridTextColumn Binding="{Binding ExcuteCount,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="true" Header="执行次数"/>
+                <DataGridTextColumn Binding="{Binding TotalExcuteTime,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="true" Header="总执行时长"/>
+                <DataGridTextColumn Binding="{Binding MaxExcuteTime,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="true" Header="最长执行时长(ms)"/>
+                <DataGridTextColumn Binding="{Binding MinExcuteTime,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="true" Header="最短执行时长(ms)"/>
+                <DataGridTextColumn Binding="{Binding AvgExcuteTime,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="true" Header="平均执行时长(ms)"/>
+                <DataGridTextColumn Binding="{Binding LastExcuteTime,UpdateSourceTrigger=PropertyChanged,StringFormat='{}{0:yyyy-MM-dd HH:mm:ss}'}" IsReadOnly="true" Header="最近一次执行时间"/>
+                <DataGridTextColumn Binding="{Binding ExcuteResult,UpdateSourceTrigger=PropertyChanged}" IsReadOnly="true" Width="*"  Header="执行结果"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox x:Name="txtRecord" Margin="5" Grid.Row="2" TextWrapping="Wrap" BorderBrush="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" IsReadOnly="True" Padding="5,2"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Height="36" Margin="480,10,302,10" VerticalAlignment="Center" Width="210" Background="#FFE6DEDE">
+            <Label Content="等待" Padding="0" Margin="10,0,0,0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="30" Height="30" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" BorderThickness="1" Background="Gray"/>
+            <Label Content="执行" Padding="0" Margin="10,2.5,0,2.5" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="30" Height="30" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" BorderThickness="1" Background="LightBlue"/>
+            <Label Content="成功" Padding="0" Margin="10,2.5,0,2.5" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="30" Height="30" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" BorderThickness="1" Background="LightGreen"/>
+            <Label Content="失败" Padding="0" Margin="10,2.5,0,2.5" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="30" Height="30" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" BorderThickness="1" Background="Red"/>
+            <Label Content="暂停" Padding="0" Margin="10,2.5,0,2.5" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="30" Height="30" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" BorderThickness="1" Background="Orange"/>
+
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="40" Margin="24,0,0,0" VerticalAlignment="Center" Width="422">
+            <Button x:Name="btnSuspendAllJob" Content="全部暂停" HorizontalAlignment="Left" VerticalAlignment="Center" Width="75" Click="btnSuspendAllJob_Click" Height="30" Margin="10,0,0,0"/>
+            <Button x:Name="btnContinueAllJob" Content="全部继续" HorizontalAlignment="Left" VerticalAlignment="Center" Width="75" Click="btnContinueAllJob_Click" Height="30" Margin="10,0,0,0"/>
+            <Button x:Name="btnSuspendJob" Content="暂停选中作业" HorizontalAlignment="Left" VerticalAlignment="Center" Width="95" Height="30" Margin="20,5,0,5" Click="btnSuspendJob_Click"/>
+            <Button x:Name="btnContinueJob" Content="继续选中作业" HorizontalAlignment="Left" VerticalAlignment="Center" Width="95" Click="btnContinueJob_Click" Height="30" Margin="10,5,0,5"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

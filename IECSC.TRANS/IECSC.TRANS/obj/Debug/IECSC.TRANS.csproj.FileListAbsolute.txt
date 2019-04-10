@@ -1,0 +1,162 @@
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\obj\Debug\MainWindow.g.cs
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\obj\Debug\App.g.cs
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS_Content.g.cs
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS_MarkupCompile.cache
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS_MarkupCompile.lref
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\bin\Debug\IECSC.TRANS.exe.config
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\bin\Debug\IECSC.TRANS.exe
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\bin\Debug\IECSC.TRANS.pdb
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\bin\Debug\Dapper.dll
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\bin\Debug\DapperExtensions.dll
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.DataStruct.dll
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.DbClient.dll
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.LogAgent.dll
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.OpcClient.dll
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcNetApi.Com.dll
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcNetApi.dll
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Comn.dll
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Da.dll
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Ae.dll
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Hda.dll
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Dx.dll
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\obj\Debug\CustomControl\LocControl.g.cs
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\obj\Debug\CustomControl\LocControl.baml
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\obj\Debug\MainWindow.baml
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.g.resources
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.Properties.Resources.resources
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csproj.GenerateResource.cache
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csproj.CoreCompileInputs.cache
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csproj.CopyComplete
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.exe
+D:\我的桌面\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.pdb
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\IECSC.TRANS.exe.config
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\IECSC.TRANS.exe
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\IECSC.TRANS.pdb
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\Dapper.dll
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\DapperExtensions.dll
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.DataStruct.dll
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.DbClient.dll
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.LogAgent.dll
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.OpcClient.dll
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcNetApi.Com.dll
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcNetApi.dll
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Comn.dll
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Da.dll
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Ae.dll
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Hda.dll
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Dx.dll
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csprojResolveAssemblyReference.cache
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\CustomControl\LocControl.g.cs
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\MainWindow.g.cs
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\App.g.cs
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS_Content.g.cs
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS_MarkupCompile.cache
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS_MarkupCompile.lref
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\CustomControl\LocControl.baml
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\MainWindow.baml
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.g.resources
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.Properties.Resources.resources
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csproj.GenerateResource.cache
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csproj.CoreCompileInputs.cache
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csproj.CopyComplete
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.exe
+D:\我的桌面\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.pdb
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\IECSC.TRANS.exe.config
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\IECSC.TRANS.exe
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\IECSC.TRANS.pdb
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\Dapper.dll
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\DapperExtensions.dll
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.DataStruct.dll
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.DbClient.dll
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.LogAgent.dll
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.OpcClient.dll
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcNetApi.Com.dll
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcNetApi.dll
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Comn.dll
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Da.dll
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Ae.dll
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Hda.dll
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Dx.dll
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csprojResolveAssemblyReference.cache
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\CustomControl\LocControl.g.cs
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\MainWindow.g.cs
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\App.g.cs
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS_Content.g.cs
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS_MarkupCompile.cache
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS_MarkupCompile.lref
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\CustomControl\LocControl.baml
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\MainWindow.baml
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.g.resources
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.Properties.Resources.resources
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csproj.GenerateResource.cache
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csproj.CoreCompileInputs.cache
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csproj.CopyComplete
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.exe
+D:\我的桌面\产品整理\输送线程序Sql Server\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.pdb
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\IECSC.TRANS.exe.config
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\IECSC.TRANS.exe
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\IECSC.TRANS.pdb
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\Dapper.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\DapperExtensions.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.DataStruct.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.DbClient.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.LogAgent.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.OpcClient.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcNetApi.Com.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcNetApi.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Comn.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Da.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Ae.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Hda.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Dx.dll
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\CustomControl\LocControl.g.cs
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\MainWindow.g.cs
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\App.g.cs
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS_Content.g.cs
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS_MarkupCompile.cache
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS_MarkupCompile.lref
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\CustomControl\LocControl.baml
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\MainWindow.baml
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.g.resources
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.Properties.Resources.resources
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csproj.GenerateResource.cache
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csproj.CoreCompileInputs.cache
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csproj.CopyComplete
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.exe
+D:\我的桌面\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.pdb
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\IECSC.TRANS.exe.config
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\IECSC.TRANS.exe
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\IECSC.TRANS.pdb
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\Dapper.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\DapperExtensions.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.DataStruct.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.DbClient.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.LogAgent.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.OpcClient.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcNetApi.Com.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcNetApi.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\Oracle.ManagedDataAccess.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Comn.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Da.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Ae.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Hda.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Dx.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\CustomControl\LocControl.g.cs
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\MainWindow.g.cs
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\App.g.cs
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS_Content.g.cs
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS_MarkupCompile.cache
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS_MarkupCompile.lref
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\CustomControl\LocControl.baml
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\MainWindow.baml
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.g.resources
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.Properties.Resources.resources
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csproj.GenerateResource.cache
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csproj.CoreCompileInputs.cache
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csproj.CopyComplete
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.exe
+E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.pdb
