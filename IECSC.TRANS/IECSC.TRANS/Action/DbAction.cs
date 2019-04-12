@@ -134,6 +134,7 @@ namespace IECSC.TRANS
                 sb.Append(" LEFT JOIN PSB_OPC_LOC_ITEM T1 ON T1.KIND = T.KIND AND T1.ISENABLE = 1");
                 sb.Append(" WHERE T.ISENABLE = 1");
                 sb.Append(" AND T1.BUSINESSIDENTITY LIKE 'Read.%'");
+                sb.Append($" AND T.TAGGROUP LIKE '{McConfig.Instance.LocArea}%'");
                 return Db.Connection.QueryTable(sb.ToString());
             }
             catch (Exception ex)
@@ -157,6 +158,8 @@ namespace IECSC.TRANS
                 sb.Append(" LEFT JOIN PSB_OPC_LOC_ITEM T1 ON T1.KIND = T.KIND AND T1.ISENABLE = 1");
                 sb.Append(" WHERE T.ISENABLE = 1");
                 sb.Append(" AND T1.BUSINESSIDENTITY LIKE 'Write.%'");
+                sb.Append($" AND T.TAGGROUP LIKE '{McConfig.Instance.LocArea}%'");
+
                 var param = new DynamicParameters();
                 return Db.Connection.QueryTable(sb.ToString());
             }

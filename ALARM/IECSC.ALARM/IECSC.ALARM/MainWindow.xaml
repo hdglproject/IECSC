@@ -22,8 +22,8 @@
                 <ColumnDefinition Width="400"/>
             </Grid.ColumnDefinitions>
             <GroupBox Header="报警状态监控" Grid.Column="0" Width="Auto" Height="Auto" Margin="3">
-                <ScrollViewer Name="scrollViewer1" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
-                    <UniformGrid x:Name="GridLocList" Width="Auto" Height="Auto"/>
+                <ScrollViewer Name="scrollViewer1" VerticalScrollBarVisibility="Auto">
+                    <WrapPanel x:Name="GridLocList" Width="Auto" Height="Auto"/>
                 </ScrollViewer>
             </GroupBox>
             <GroupBox x:Name="gbExecLog" Header="运行日志" Grid.Column="1" Width="Auto" Height="Auto" Margin="3" >
