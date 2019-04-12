@@ -160,3 +160,36 @@ E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlSer
 E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csproj.CopyComplete
 E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.exe
 E:\00 MESNAC\Project Mangement\06华鼎国联\立体库相关程序整理\SqlServer版本\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.pdb
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\bin\Debug\IECSC.TRANS.exe.config
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\bin\Debug\IECSC.TRANS.exe
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\bin\Debug\IECSC.TRANS.pdb
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\bin\Debug\Dapper.dll
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\bin\Debug\DapperExtensions.dll
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.DataStruct.dll
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.DbClient.dll
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.LogAgent.dll
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\bin\Debug\MSTL.OpcClient.dll
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcNetApi.Com.dll
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcNetApi.dll
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\bin\Debug\Oracle.ManagedDataAccess.dll
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Comn.dll
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Da.dll
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Ae.dll
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Hda.dll
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\bin\Debug\OpcRcw.Dx.dll
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csprojAssemblyReference.cache
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\obj\Debug\CustomControl\LocControl.g.cs
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\obj\Debug\MainWindow.g.cs
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\obj\Debug\App.g.cs
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS_Content.g.cs
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS_MarkupCompile.cache
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS_MarkupCompile.lref
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\obj\Debug\CustomControl\LocControl.baml
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\obj\Debug\MainWindow.baml
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.g.resources
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.Properties.Resources.resources
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csproj.GenerateResource.cache
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csproj.CoreCompileInputs.cache
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.csproj.CopyComplete
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.exe
+E:\HDGL\Github\IECSC\IECSC.TRANS\IECSC.TRANS\obj\Debug\IECSC.TRANS.pdb
