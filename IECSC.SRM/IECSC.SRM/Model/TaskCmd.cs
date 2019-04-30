@@ -49,7 +49,7 @@ namespace IECSC.SRM
         {
             get
             {
-                if (CmdType.Equals("I"))
+                if (CmdType.Equals("I") || SlocPlcNo == "B1121")
                 {
                     return (int)Encoding.ASCII.GetBytes(SlocPlcNo.Substring(0, 1))[0];
                 }
@@ -66,7 +66,7 @@ namespace IECSC.SRM
         {
             get
             {
-                if (CmdType.Equals("I"))
+                if (CmdType.Equals("I")||SlocPlcNo=="B1121")
                 {
                     return Convert.ToInt32(SlocPlcNo.Substring(1));
                 }
@@ -83,7 +83,7 @@ namespace IECSC.SRM
         {
             get
             {
-                if (!CmdType.Equals("I"))
+                if (CmdType.Equals("I"))
                 {
                     return Convert.ToInt32(SlocPlcNo.Substring(0, 2));
                 }
@@ -100,7 +100,7 @@ namespace IECSC.SRM
         {
             get
             {
-                if (!CmdType.Equals("I"))
+                if (CmdType.Equals("I"))
                 {
                     return Convert.ToInt32(SlocPlcNo.Substring(2, 2));
                 }
@@ -117,7 +117,7 @@ namespace IECSC.SRM
         {
             get
             {
-                if (!CmdType.Equals("I"))
+                if (CmdType.Equals("I"))
                 {
                     return Convert.ToInt32(SlocPlcNo.Substring(4, 2));
                 }

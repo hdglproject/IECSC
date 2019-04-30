@@ -30,11 +30,20 @@ namespace IECSC.TRANS
                 }
                 if (loc.plcStatus.StatusRequest != 1)
                 {
+                    loc.RequestTaskObjid = 0;
+                    loc.RequestCmdObjid = 0;
+                    loc.bizStatus = BizStatus.None;
+                   
                     return;
                 }
                 if (string.IsNullOrEmpty(loc.plcStatus.PalletNo))
                 {
                     ShowFormData.Instance.ShowFormInfo(new ShowInfoData($"[{loc.LocPlcNo}]未获取到PLC传递工装编号", locNo));
+                    return;
+                }
+                if (loc.plcStatus.PalletQty<=0)
+                {
+                    ShowFormData.Instance.ShowFormInfo(new ShowInfoData($"[{loc.LocPlcNo}]叠盘机传递工装数量不能<=0", locNo));
                     return;
                 }
                 //获取指令
@@ -47,15 +56,26 @@ namespace IECSC.TRANS
                     }
                     else
                     {
+                        loc.bizStatus = BizStatus.Bind;
+                    }
+                }
+                if (loc.bizStatus==BizStatus.Bind)
+                {
+                    var result = commonBiz.SetBoundNoToDB(loc);
+                    if (result)
+                    {
                         loc.bizStatus = BizStatus.ReqTask;
+                    }
+                    else
+                    {
+                        return;
                     }
                 }
                 //获取任务
-                var taskNo = 0;
                 if (loc.bizStatus == BizStatus.ReqTask)
                 {
-                    taskNo = commonBiz.RequstTask(loc);
-                    if (taskNo > 0)
+                    loc.TaskNo = commonBiz.RequstTask(loc);
+                    if (loc.TaskNo > 0)
                     {
                         loc.bizStatus = BizStatus.ReqCmd;
                     }
@@ -67,7 +87,7 @@ namespace IECSC.TRANS
                 //请求指令
                 if (loc.bizStatus == BizStatus.ReqCmd)
                 {
-                    var result = commonBiz.RequstCmd(loc, taskNo);
+                    var result = commonBiz.RequstCmd(loc, loc.TaskNo);
                     if (result)
                     {
                         loc.bizStatus = BizStatus.Select;
@@ -96,6 +116,18 @@ namespace IECSC.TRANS
                     var result = commonBiz.WriteTaskCmd(loc);
                     if (result)
                     {
+                        loc.bizStatus = BizStatus.Update;
+                    }
+                    else
+                    {
+                        return;
+                    }
+                }
+                if (loc.bizStatus == BizStatus.Update)
+                {
+                    var result = commonBiz.UpdateTaskCmd(loc);
+                    if (result)
+                    {
                         loc.bizStatus = BizStatus.WriteDeal;
                     }
                     else
@@ -106,36 +138,8 @@ namespace IECSC.TRANS
                 //写入已处理信号
                 if (loc.bizStatus == BizStatus.WriteDeal)
                 {
-                    var result = commonBiz.WriteTaskDeal(loc);
-                    if (result)
-                    {
-                        loc.bizStatus = BizStatus.Update;
-                    }
-                    else
-                    {
-                        return;
-                    }
-                }
-                //更新指令步骤
-                if (loc.bizStatus == BizStatus.Update)
-                {
-                    var result = commonBiz.UpdateTaskCmd(loc);
-                    if (result)
-                    {
-                        loc.bizStatus = BizStatus.Reset;
-                    }
-                    else
-                    {
-                        return;
-                    }
-                }
-                //复位
-                if (loc.bizStatus == BizStatus.Reset)
-                {
-                    loc.RequestTaskObjid = 0;
-                    loc.RequestCmdObjid = 0;
-                    loc.plcStatus.StatusRequest = 0;
-                    loc.bizStatus = BizStatus.None;
+                     commonBiz.WriteTaskDeal(loc);
+                    
                 }
             }
             catch (Exception ex)

@@ -30,6 +30,7 @@ namespace IECSC.TRANS
                 }
                 if(loc.plcStatus.StatusRequest != 1)
                 {
+                    loc.bizStatus = BizStatus.None;
                     return;
                 }
                 //获取指令
@@ -51,19 +52,6 @@ namespace IECSC.TRANS
                     var result = commonBiz.WriteTaskCmd(loc);
                     if (result)
                     {
-                        loc.bizStatus = BizStatus.WriteDeal;
-                    }
-                    else
-                    {
-                        return;
-                    }
-                }
-                //写入任务已处理
-                if (loc.bizStatus == BizStatus.WriteDeal)
-                {
-                    var result = commonBiz.WriteTaskDeal(loc);
-                    if (result)
-                    {
                         loc.bizStatus = BizStatus.Update;
                     }
                     else
@@ -77,18 +65,17 @@ namespace IECSC.TRANS
                     var result = commonBiz.UpdateTaskCmd(loc);
                     if (result)
                     {
-                        loc.bizStatus = BizStatus.Reset;
+                        loc.bizStatus = BizStatus.WriteDeal;
                     }
                     else
                     {
                         return;
                     }
                 }
-                //复位
-                if (loc.bizStatus == BizStatus.Reset)
+                //写入任务已处理
+                if (loc.bizStatus == BizStatus.WriteDeal)
                 {
-                    loc.plcStatus.StatusRequest = 0;
-                    loc.bizStatus = BizStatus.None;
+                    commonBiz.WriteTaskDeal(loc);
                 }
             }
             catch (Exception ex)

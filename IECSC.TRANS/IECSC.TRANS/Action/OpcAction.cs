@@ -174,11 +174,14 @@ namespace IECSC.TRANS
                         case "Read.StatusRequest":
                             BizHandle.Instance.locDic[locNo].plcStatus.StatusRequest = Convert.ToInt32(item.TagValue ?? 0);
                             break;
-                        case "Read.StatusFree":
+                        case "Read.StatusToUnload":
                             BizHandle.Instance.locDic[locNo].plcStatus.StatusFree = Convert.ToInt32(item.TagValue ?? 0);
                             break;
                         case "Read.StatusToLoad":
                             BizHandle.Instance.locDic[locNo].plcStatus.StatusToLoad = Convert.ToInt32(item.TagValue ?? 0);
+                            break;
+                        case "Read.PalletQty":
+                            BizHandle.Instance.locDic[locNo].plcStatus.PalletQty = Convert.ToInt32(item.TagValue ?? 0);
                             break;
                     }
                     #endregion
@@ -251,7 +254,7 @@ namespace IECSC.TRANS
                             keyValues.Add(new KeyValuePair<string, object>(item.Key, loc.taskCmd.TaskNo));
                             break;
                         case "Write.PalletNo":
-                            keyValues.Add(new KeyValuePair<string, object>(item.Key, loc.taskCmd.PalletNo ?? string.Empty));
+                            keyValues.Add(new KeyValuePair<string, object>(item.Key, loc.taskCmd.PalletNo.PadRight(20,' ') ?? string.Empty));
                             break;
                         case "Write.SlocArea":
                             keyValues.Add(new KeyValuePair<string, object>(item.Key, loc.taskCmd.SlocArea));

@@ -158,7 +158,7 @@ namespace IECSC.SRM
                 //检验设备是否故障
                 if(srm.plcStatus.FaultNo > 0)
                 {
-                    if(srm.plcStatus.FaultNo != 68)
+                    if(srm.plcStatus.FaultNo != 49)
                     {
                         ShowFormData.Instance.ShowFormInfo(new ShowInfoData($"[None]设备故障：{srm[srm.plcStatus.FaultNo.ToString()]}"));
                         return;
@@ -390,7 +390,7 @@ namespace IECSC.SRM
                     }
                 }
                 //空出库
-                else if(srm.plcStatus.FaultNo == 53)
+                else if(srm.plcStatus.FaultNo == 42)
                 {
                     var result = DbAction.Instance.UpdateEquipErrStatus(srm.taskCmd.TaskNo, srm.plcStatus.FaultNo, 1);
                     if(result)
@@ -404,7 +404,7 @@ namespace IECSC.SRM
                     }
                 }
                 //先入品
-                else if (srm.plcStatus.FaultNo == 68)
+                else if (srm.plcStatus.FaultNo == 49)
                 {
                     var result = DbAction.Instance.UpdateEquipErrStatus(srm.taskCmd.TaskNo, srm.plcStatus.FaultNo, 1);
                     if (result)
@@ -457,7 +457,7 @@ namespace IECSC.SRM
                 #endregion
 
                 #region 空出库处理
-                else if (srm.plcStatus.FaultNo == 53)
+                else if (srm.plcStatus.FaultNo == 42)
                 {
                     var fipFlag = DbAction.Instance.GetFipFlag();
                     if (fipFlag == 2)
@@ -495,7 +495,7 @@ namespace IECSC.SRM
                 #endregion
 
                 #region  先入品处理
-                else if (srm.plcStatus.FaultNo == 68)
+                else if (srm.plcStatus.FaultNo == 49)
                 {
                     var fipFlag = DbAction.Instance.GetFipFlag();
                     if (fipFlag == 2)

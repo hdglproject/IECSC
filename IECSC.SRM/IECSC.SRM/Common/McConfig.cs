@@ -41,6 +41,8 @@ namespace IECSC.SRM
                 OpcGroupName = getConfig("OpcGroupName");
                 OpcServerIp = getConfig("OpcServerIP");
                 SrmNo = getConfig("SrmNo");
+                SrmName = getConfig("SrmName");
+
                 SrmIp = getConfig("SrmIp");
                 DbIp = getConfig("DbIp");
                 DbConnect = getConfig("DbConnect");
@@ -63,6 +65,10 @@ namespace IECSC.SRM
         /// 堆垛机编号
         /// </summary>
         public string SrmNo { get; set; }
+        /// <summary>
+        /// 堆垛机名称
+        /// </summary>
+        public string SrmName { get; set; }
         /// <summary>
         /// 堆垛机IP
         /// </summary>

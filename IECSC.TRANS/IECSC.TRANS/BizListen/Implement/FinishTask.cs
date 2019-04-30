@@ -30,6 +30,8 @@ namespace IECSC.TRANS
                 }
                 if (loc.plcStatus.StatusToLoad != 1)
                 {
+                    loc.RequestFinishObjid = 0;
+                    loc.bizStatus = BizStatus.None;
                     return;
                 }
                 //检查下位机传递任务号
@@ -54,22 +56,7 @@ namespace IECSC.TRANS
                 //写入已处理信号
                 if (loc.bizStatus == BizStatus.WriteDeal)
                 {
-                    var result = commonBiz.WriteTaskDeal(loc);
-                    if (result)
-                    {
-                        loc.bizStatus = BizStatus.Reset;
-                    }
-                    else
-                    {
-                        return;
-                    }
-                }
-                //复位
-                if (loc.bizStatus == BizStatus.Reset)
-                {
-                    loc.RequestFinishObjid = 0;
-                    loc.plcStatus.StatusToLoad = 0;
-                    loc.bizStatus = BizStatus.None;
+                    commonBiz.WriteTaskDeal(loc);
                 }
             }
             catch (Exception ex)

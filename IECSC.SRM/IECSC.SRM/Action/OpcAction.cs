@@ -295,7 +295,7 @@ namespace IECSC.SRM
                             keyValues.Add(new KeyValuePair<string, object>(item.TagLongName, 1));
                             break;
                         case "Write.DeviceId":
-                            keyValues.Add(new KeyValuePair<string, object>(item.TagLongName, srm.SrmName));
+                            keyValues.Add(new KeyValuePair<string, object>(item.TagLongName, new Srm().SrmName));
                             break;
                         case "Write.MissionType":
                             keyValues.Add(new KeyValuePair<string, object>(item.TagLongName, srm.taskCmd.MissionType));

@@ -55,6 +55,11 @@ namespace IECSC.TRANS
         /// </summary>
         public int RequestFinishObjid { get; set; } = 0;
 
+        /// <summary>
+        /// 请求生成绑定空托盘参数表OBJID
+        /// </summary>
+        public int RequestBindObjid { get; set; } = 0;
+
         private string execLog = string.Empty;
         /// <summary>
         /// 运行日志记录
@@ -83,6 +88,10 @@ namespace IECSC.TRANS
         /// 上次运行日志
         /// </summary>
         public string LastExecLog { get; set; }
+        /// <summary>
+        /// 任务类型
+        /// </summary>
+        public int TaskNo { get; set; }
     }
 
     public enum BizStatus
@@ -92,40 +101,44 @@ namespace IECSC.TRANS
         /// </summary>
         None = 0,
         /// <summary>
+        /// 叠盘机绑定空盘
+        /// </summary>
+        Bind =1,
+        /// <summary>
         /// 请求任务
         /// </summary>
-        ReqTask = 1,
+        ReqTask = 2,
         /// <summary>
         /// 请求指令
         /// </summary>
-        ReqCmd = 2,
+        ReqCmd = 3,
         /// <summary>
         /// 获取数据-指令
         /// </summary>
-        Select = 3,
+        Select = 4,
         /// <summary>
         /// 下传指令
         /// </summary>
-        WriteTask = 4,
+        WriteTask = 5,
         /// <summary>
         /// 下传已处理信号
         /// </summary>
-        WriteDeal = 5,
+        WriteDeal = 6,
         /// <summary>
         /// 更新指令步骤
         /// </summary>
-        Update = 6,
+        Update = 7,
         /// <summary>
         /// 结束指令
         /// </summary>
-        Finish = 7,
+        Finish = 8,
         /// <summary>
         /// 完成-传递任务已处理信号
         /// </summary>
-        End = 8,
+        End = 9,
         /// <summary>
         /// 复位
         /// </summary>
-        Reset = 9
+        Reset = 10
     }
 }

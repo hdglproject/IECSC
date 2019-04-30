@@ -104,7 +104,7 @@ namespace IECSC.TRANS
             try
             {
                 var sb = new StringBuilder();
-                sb.Append("SELECT T.LOC_NO,T.LOC_PLC_NO,T.LOC_TYPE_NO,T1.LOC_TYPE_NAME,T2.TYPEDESC");
+                sb.Append(" SELECT T.LOC_NO,T.LOC_PLC_NO,T.LOC_TYPE_NO,T1.LOC_TYPE_NAME,T2.TYPEDESC");
                 sb.Append(" FROM PSB_LOC T");
                 sb.Append(" LEFT JOIN PSB_LOC_TYPE T1 ON T1.LOC_TYPE_NO = T.LOC_TYPE_NO");
                 sb.Append(" LEFT JOIN PSB_LOC_BLL T2 ON T.LOC_NO = T2.LOC_NO");
@@ -142,6 +142,73 @@ namespace IECSC.TRANS
                 log.Error($"[异常]执行GetReadItemsData()获取站台读取项信息失败:{ex.ToString()}");
                 return null;
             }
+        }
+
+        internal bool SetBoundNoToDB(int requestBindObjid, Loc loc, ref string errMsg)
+        {
+            try
+            {
+                var dt = Db.Connection.QueryTable($"SELECT * FROM TPROC_BIND_PRODUCT T WHERE T.OBJID = {requestBindObjid}");
+                if (dt != null && dt.Rows.Count == 0)
+                {
+                    //var strSql = new StringBuilder();
+
+                   string strSql = $"INSERT  INTO TPROC_BIND_PRODUCT(OBJID,PALLET_NO,MATER_NO,PRODUCT_QTY,USER_NAME)values({requestBindObjid},'{loc.plcStatus.PalletNo.ToUpper()}','BPALLET',{loc.plcStatus.PalletQty},'1')";
+                    //var param = new DynamicParameters();
+
+                    //param.Add("wuzz", requestBindObjid);
+                    //param.Add("palletNumber", loc.plcStatus.PalletNo.ToUpper());
+                    //param.Add("productNumber", "BPALLET");
+                    //param.Add("productQty", loc.plcStatus.PalletQty);
+                    //param.Add("userName", "1");
+                    //var str = strSql.ToString();
+                    Db.Connection.Execute(strSql);
+                }
+                else
+                {
+                    if (dt.Rows[0]["PROC_STATUS"].Equals("2") && dt.Rows[0]["ERR_CODE"].Equals("0"))
+                    {
+                        return true;
+                    }
+                }
+               
+                    DynamicParameters para = new DynamicParameters();
+                    para.Add("I_PARAM_OBJID", requestBindObjid);
+                    para.Add("O_ERR_CODE", null, DbType.String, ParameterDirection.Output, size: 50);
+                    para.Add("O_ERR_DESC", null, DbType.String, ParameterDirection.Output, size: 50);
+                    Db.Connection.Execute("PROC_BIND_PRODUCT", para, commandType: CommandType.StoredProcedure);
+                    var result = para.Get<string>("O_ERR_DESC");
+                if (string.IsNullOrEmpty(result))
+                {
+                    return true;
+                }
+                else
+                {
+                    errMsg = result;
+                    return false;
+                }
+              
+            }
+            catch(Exception ex)
+            {
+                errMsg = ex.ToString();
+                return false;
+            }
+
+        }
+
+        internal int GetObjidForBindPallet()
+        {
+            try
+            {
+                return Db.Connection.ExecuteScalar<int>("SELECT NEXT VALUE FOR SEQ_TPROC_BIND_PRODUCT AS SQUENCENUM");
+            }
+            catch
+            {
+                return 0;
+            }
+
+
         }
 
         /// <summary>
@@ -413,7 +480,7 @@ namespace IECSC.TRANS
             {
 
                 var dt = Db.Connection.QueryTable($"SELECT * FROM TPROC_0300_CMD_FINISH T WHERE T.OBJID = {ObjId}");
-                if(dt == null || dt.Rows.Count == 0)
+                if (dt == null || dt.Rows.Count == 0)
                 {
                     //获取指令号
                     var cmdId = Db.Connection.ExecuteScalar<int>($"SELECT ISNULL(MIN(T.OBJID),0) FROM WBS_TASK_CMD T WHERE T.TASK_NO = {taskNo}");
@@ -441,7 +508,7 @@ namespace IECSC.TRANS
                 dp.Add("O_ERR_DESC", 0, DbType.String, ParameterDirection.Output, size: 80);
                 Db.Connection.Execute("PROC_0300_CMD_FINISH", param: dp, commandType: CommandType.StoredProcedure);
                 errMsg = dp.Get<string>("O_ERR_DESC") ?? string.Empty;
-                if(string.IsNullOrEmpty(errMsg))
+                if (string.IsNullOrEmpty(errMsg))
                 {
                     return true;
                 }

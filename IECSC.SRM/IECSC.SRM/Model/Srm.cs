@@ -17,7 +17,7 @@ namespace IECSC.SRM
         /// <summary>
         /// 堆垛机名称
         /// </summary>
-        public string SrmName = string.Empty;
+        public string SrmName = McConfig.Instance.SrmName;
         /// <summary>
         /// 堆垛机业务状态
         /// </summary>
@@ -202,6 +202,7 @@ namespace IECSC.SRM
             this.PalletNo = cmd.PalletNo;
             this.FromLoc = cmd.SlocPlcNo;
             this.ToLoc = cmd.ElocPlcNo;
+         
         }
         /// <summary>
         /// 清除堆垛机任务信息

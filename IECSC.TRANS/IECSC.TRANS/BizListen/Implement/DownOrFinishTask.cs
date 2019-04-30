@@ -29,7 +29,13 @@ namespace IECSC.TRANS
                     return;
                 }
                 var errMsg = string.Empty;
+                if(loc.plcStatus.StatusRequest != 1 && loc.plcStatus.StatusToLoad != 1)
+                {
+                    loc.RequestFinishObjid = 0;
+                    loc.bizStatus = BizStatus.None;
 
+                    return;
+                }
                 //接受到“请求上位机下发任务信号”，获取指令，下发指令
                 if (loc.plcStatus.StatusRequest == 1)
                 {
@@ -50,18 +56,6 @@ namespace IECSC.TRANS
                         var result = commonBiz.WriteTaskCmd(loc);
                         if (result)
                         {
-                            loc.bizStatus = BizStatus.WriteDeal;
-                        }
-                        else
-                        {
-                            return;
-                        }
-                    }
-                    if (loc.bizStatus == BizStatus.WriteDeal)
-                    {
-                        var result = commonBiz.WriteTaskDeal(loc);
-                        if (result)
-                        {
                             loc.bizStatus = BizStatus.Update;
                         }
                         else
@@ -74,17 +68,16 @@ namespace IECSC.TRANS
                         var result = commonBiz.UpdateTaskCmd(loc);
                         if (result)
                         {
-                            loc.bizStatus = BizStatus.Reset;
+                            loc.bizStatus = BizStatus.WriteDeal;
                         }
                         else
                         {
                             return;
                         }
                     }
-                    if (loc.bizStatus == BizStatus.Reset)
+                    if (loc.bizStatus == BizStatus.WriteDeal)
                     {
-                        loc.plcStatus.StatusRequest = 0;
-                        loc.bizStatus = BizStatus.None;
+                        commonBiz.WriteTaskDeal(loc);
                     }
                 }
                 //接受到“站点有货需取货信号”，结束指令
@@ -109,21 +102,7 @@ namespace IECSC.TRANS
                     }
                     if (loc.bizStatus == BizStatus.WriteDeal)
                     {
-                        var result = commonBiz.WriteTaskDeal(loc);
-                        if (result)
-                        {
-                            loc.bizStatus = BizStatus.Reset;
-                        }
-                        else
-                        {
-                            return;
-                        }
-                    }
-                    if (loc.bizStatus == BizStatus.Reset)
-                    {
-                        loc.RequestFinishObjid = 0;
-                        loc.plcStatus.StatusToLoad = 0;
-                        loc.bizStatus = BizStatus.None;
+                        commonBiz.WriteTaskDeal(loc);
                     }
                 }
             }

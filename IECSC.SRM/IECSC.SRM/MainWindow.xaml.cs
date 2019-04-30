@@ -340,6 +340,7 @@ namespace IECSC.SRM
                 this.txtActSpeedZDeep.Text = srm.plcStatus.ActSpeedZDeep.ToString();
                 this.txtLoadStatus.Text = srm.plcStatus.LoadStatus.ToString();
                 this.txtFaultNo.Text = srm.plcStatus.FaultNo.ToString();
+                this.txtDeviceId.Text = new Srm().SrmName;
                 switch (srm.plcStatus.FaultNo)
                 {
                     case 0:

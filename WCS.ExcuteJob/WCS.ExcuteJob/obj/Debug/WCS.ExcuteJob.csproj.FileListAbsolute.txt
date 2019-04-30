@@ -55,7 +55,6 @@ E:\01项目资料\17华鼎国联项目\01产品代码\WCS.ExcuteJob\WCS.ExcuteJo
 E:\HDGL\Github\IECSC\WCS.ExcuteJob\WCS.ExcuteJob\bin\Debug\WCS.ExcuteJob.exe.config
 E:\HDGL\Github\IECSC\WCS.ExcuteJob\WCS.ExcuteJob\bin\Debug\WCS.ExcuteJob.exe
 E:\HDGL\Github\IECSC\WCS.ExcuteJob\WCS.ExcuteJob\bin\Debug\WCS.ExcuteJob.pdb
-E:\HDGL\Github\IECSC\WCS.ExcuteJob\WCS.ExcuteJob\obj\Debug\WCS.ExcuteJob.csprojAssemblyReference.cache
 E:\HDGL\Github\IECSC\WCS.ExcuteJob\WCS.ExcuteJob\obj\Debug\MainWindow.g.cs
 E:\HDGL\Github\IECSC\WCS.ExcuteJob\WCS.ExcuteJob\obj\Debug\App.g.cs
 E:\HDGL\Github\IECSC\WCS.ExcuteJob\WCS.ExcuteJob\obj\Debug\GeneratedInternalTypeHelper.g.cs
@@ -69,3 +68,4 @@ E:\HDGL\Github\IECSC\WCS.ExcuteJob\WCS.ExcuteJob\obj\Debug\WCS.ExcuteJob.csproj.
 E:\HDGL\Github\IECSC\WCS.ExcuteJob\WCS.ExcuteJob\obj\Debug\WCS.ExcuteJob.csproj.CopyComplete
 E:\HDGL\Github\IECSC\WCS.ExcuteJob\WCS.ExcuteJob\obj\Debug\WCS.ExcuteJob.exe
 E:\HDGL\Github\IECSC\WCS.ExcuteJob\WCS.ExcuteJob\obj\Debug\WCS.ExcuteJob.pdb
+E:\HDGL\Github\IECSC\WCS.ExcuteJob\WCS.ExcuteJob\obj\Debug\WCS.ExcuteJob.csprojAssemblyReference.cache

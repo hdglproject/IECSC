@@ -64,6 +64,11 @@ namespace IECSC.TRANS
         /// 有货需取货 标识
         /// </summary>
         public int StatusToLoad { get; set; }
+        /// <summary>
+        /// 工装数量
+        /// </summary>
+        public int PalletQty { get; set; }
+
 
     }
 }

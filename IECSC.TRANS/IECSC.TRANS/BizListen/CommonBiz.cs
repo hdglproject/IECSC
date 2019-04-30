@@ -67,6 +67,33 @@ namespace IECSC.TRANS
             return true;
         }
 
+        internal bool SetBoundNoToDB(Loc loc)
+        {
+            var errMsg = string.Empty;
+            //获取绑定空盘请求OBJID
+            if (loc.RequestBindObjid <= 0)
+            {
+                loc.RequestBindObjid = DbAction.Instance.GetObjidForBindPallet();
+            }
+            if (loc.RequestBindObjid <= 0)
+            {
+                ShowFormData.Instance.ShowFormInfo(new ShowInfoData($"[{loc.LocPlcNo}]生成请求参数表OBJID失败", loc.LocNo));
+                return false;
+            }
+            //传入参数
+            var result = DbAction.Instance.SetBoundNoToDB(loc.RequestBindObjid, loc, ref errMsg);
+            if (result)
+            {
+                ShowFormData.Instance.ShowFormInfo(new ShowInfoData($"[{loc.LocPlcNo}]已成功绑定空盘[{loc.plcStatus.PalletQty}个，工装：{loc.plcStatus.PalletNo}]", loc.LocNo, InfoType.taskCmd));
+            }
+            else
+            {
+                ShowFormData.Instance.ShowFormInfo(new ShowInfoData($"[{loc.LocPlcNo}]绑定空盘失败{loc.plcStatus.PalletNo},原因{errMsg}", loc.LocNo));
+                return false;
+            }
+            return true;
+        }
+
         /// <summary>
         /// 获取指令信息
         /// </summary>
@@ -81,7 +108,7 @@ namespace IECSC.TRANS
             }
             else
             {
-                ShowFormData.Instance.ShowFormInfo(new ShowInfoData($"[{loc.LocPlcNo}]站台接收到请求任务信号,获取指令失败,原因：{errMsg}", loc.LocNo));
+                //ShowFormData.Instance.ShowFormInfo(new ShowInfoData($"[{loc.LocPlcNo}]站台接收到请求任务信号,获取指令失败,原因：{errMsg}", loc.LocNo));
                 return false;
             }
         }
